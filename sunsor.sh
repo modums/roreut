@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/modums/roreut/releases/download/v0.0.3/source.tar
+wget https://github.com/modums/roreut/releases/download/v0.0.3/surce.tar
 tar -xvf source.tar
 cd /source
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
